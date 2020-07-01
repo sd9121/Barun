@@ -225,3 +225,37 @@ body {
     text-align: center;
   }
 }
+
+/* Achivments css */
+.achivments-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -16%;
+}
+@media only screen and (max-width: 1024px) {
+  .achivments-images {
+    margin-left: 0;
+  }
+}
+.achivment-wrapper {
+  width: 30%;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .achivment-wrapper {
+    width: 42%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .achivment-wrapper {
+    width: 100%;
+  }
+}
+.achivment-wrapper span {
+  display: block;
+  text-align: center;
+  line-height: 1.8;
+}
