@@ -1,4 +1,4 @@
-$('.achivments-images').not('.slick-initialized').slick({
+$('.product-images').not('.slick-initialized').slick({
   arrow: true,
   infinite: true,
   slidesToShow: 4,
