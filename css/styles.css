@@ -228,7 +228,7 @@ body {
 .achivments-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
 }
 @media only screen and (max-width: 1024px) {
@@ -237,9 +237,10 @@ body {
   }
 }
 .achivment-wrapper {
-  width: 30%;
+  width: 20%;
   margin-bottom: 10px;
   margin-right: 15px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -263,4 +264,12 @@ body {
 
 .work-info .fa {
   font-size: 44px;
+}
+.page-link {
+  font-size: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .page-link {
+    padding-left: 32px;
+  }
 }
